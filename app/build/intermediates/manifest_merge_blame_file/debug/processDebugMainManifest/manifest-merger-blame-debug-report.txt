@@ -1,0 +1,360 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.lovelygallery"
+4    android:versionCode="2"
+5    android:versionName="2.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:4:5-80
+11-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:4:22-77
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:5:5-65
+12-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:6:5-67
+13-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:7:5-79
+14-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:7:22-76
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:8:5-79
+15-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:8:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:9:5-81
+16-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:9:22-78
+17    <uses-permission
+17-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:10:5-108
+18        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+18-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:10:22-78
+19        android:maxSdkVersion="28" />
+19-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:10:79-105
+20    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+20-->[androidx.biometric:biometric:1.2.0-alpha05] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/eafdd50f4135843e2363753f2ffc2d56/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:22:5-72
+20-->[androidx.biometric:biometric:1.2.0-alpha05] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/eafdd50f4135843e2363753f2ffc2d56/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:22:22-69
+21    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+21-->[androidx.biometric:biometric:1.2.0-alpha05] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/eafdd50f4135843e2363753f2ffc2d56/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:25:5-74
+21-->[androidx.biometric:biometric:1.2.0-alpha05] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/eafdd50f4135843e2363753f2ffc2d56/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:25:22-71
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:18.2.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/625552c8582f73927fd99d2f10059884/transformed/play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:18.2.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/625552c8582f73927fd99d2f10059884/transformed/play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:18.2.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/625552c8582f73927fd99d2f10059884/transformed/play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+26
+27    <queries>
+27-->[com.google.android.gms:play-services-maps:18.2.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/625552c8582f73927fd99d2f10059884/transformed/play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+28
+29        <!-- Needs to be explicitly declared on Android R+ -->
+30        <package android:name="com.google.android.apps.maps" />
+30-->[com.google.android.gms:play-services-maps:18.2.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/625552c8582f73927fd99d2f10059884/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+30-->[com.google.android.gms:play-services-maps:18.2.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/625552c8582f73927fd99d2f10059884/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+31    </queries>
+32
+33    <supports-screens
+33-->[org.osmdroid:osmdroid-android:6.1.17] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/58782e300da6abcdb98f81fd5ec3eceb/transformed/osmdroid-android-6.1.17/AndroidManifest.xml:9:5-12:40
+34        android:anyDensity="true"
+34-->[org.osmdroid:osmdroid-android:6.1.17] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/58782e300da6abcdb98f81fd5ec3eceb/transformed/osmdroid-android-6.1.17/AndroidManifest.xml:10:9-34
+35        android:largeScreens="true"
+35-->[org.osmdroid:osmdroid-android:6.1.17] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/58782e300da6abcdb98f81fd5ec3eceb/transformed/osmdroid-android-6.1.17/AndroidManifest.xml:11:9-36
+36        android:normalScreens="true" />
+36-->[org.osmdroid:osmdroid-android:6.1.17] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/58782e300da6abcdb98f81fd5ec3eceb/transformed/osmdroid-android-6.1.17/AndroidManifest.xml:12:9-37
+37
+38    <uses-feature
+38-->[org.osmdroid:osmdroid-android:6.1.17] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/58782e300da6abcdb98f81fd5ec3eceb/transformed/osmdroid-android-6.1.17/AndroidManifest.xml:14:5-16:36
+39        android:name="android.hardware.location.network"
+39-->[org.osmdroid:osmdroid-android:6.1.17] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/58782e300da6abcdb98f81fd5ec3eceb/transformed/osmdroid-android-6.1.17/AndroidManifest.xml:15:9-57
+40        android:required="false" />
+40-->[org.osmdroid:osmdroid-android:6.1.17] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/58782e300da6abcdb98f81fd5ec3eceb/transformed/osmdroid-android-6.1.17/AndroidManifest.xml:16:9-33
+41    <uses-feature
+41-->[org.osmdroid:osmdroid-android:6.1.17] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/58782e300da6abcdb98f81fd5ec3eceb/transformed/osmdroid-android-6.1.17/AndroidManifest.xml:17:5-19:36
+42        android:name="android.hardware.location.gps"
+42-->[org.osmdroid:osmdroid-android:6.1.17] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/58782e300da6abcdb98f81fd5ec3eceb/transformed/osmdroid-android-6.1.17/AndroidManifest.xml:18:9-53
+43        android:required="false" />
+43-->[org.osmdroid:osmdroid-android:6.1.17] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/58782e300da6abcdb98f81fd5ec3eceb/transformed/osmdroid-android-6.1.17/AndroidManifest.xml:19:9-33
+44    <uses-feature
+44-->[org.osmdroid:osmdroid-android:6.1.17] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/58782e300da6abcdb98f81fd5ec3eceb/transformed/osmdroid-android-6.1.17/AndroidManifest.xml:20:5-22:36
+45        android:name="android.hardware.telephony"
+45-->[org.osmdroid:osmdroid-android:6.1.17] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/58782e300da6abcdb98f81fd5ec3eceb/transformed/osmdroid-android-6.1.17/AndroidManifest.xml:21:9-50
+46        android:required="false" />
+46-->[org.osmdroid:osmdroid-android:6.1.17] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/58782e300da6abcdb98f81fd5ec3eceb/transformed/osmdroid-android-6.1.17/AndroidManifest.xml:22:9-33
+47    <uses-feature
+47-->[org.osmdroid:osmdroid-android:6.1.17] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/58782e300da6abcdb98f81fd5ec3eceb/transformed/osmdroid-android-6.1.17/AndroidManifest.xml:23:5-25:36
+48        android:name="android.hardware.wifi"
+48-->[org.osmdroid:osmdroid-android:6.1.17] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/58782e300da6abcdb98f81fd5ec3eceb/transformed/osmdroid-android-6.1.17/AndroidManifest.xml:24:9-45
+49        android:required="false" />
+49-->[org.osmdroid:osmdroid-android:6.1.17] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/58782e300da6abcdb98f81fd5ec3eceb/transformed/osmdroid-android-6.1.17/AndroidManifest.xml:25:9-33
+50
+51    <permission
+51-->[androidx.core:core:1.13.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/9f329d9004dcec40d8b9fd5f4f508bfd/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+52        android:name="com.example.lovelygallery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+52-->[androidx.core:core:1.13.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/9f329d9004dcec40d8b9fd5f4f508bfd/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+53        android:protectionLevel="signature" />
+53-->[androidx.core:core:1.13.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/9f329d9004dcec40d8b9fd5f4f508bfd/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+54
+55    <uses-permission android:name="com.example.lovelygallery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+55-->[androidx.core:core:1.13.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/9f329d9004dcec40d8b9fd5f4f508bfd/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+55-->[androidx.core:core:1.13.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/9f329d9004dcec40d8b9fd5f4f508bfd/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+56
+57    <application
+57-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:12:5-52:19
+58        android:allowBackup="true"
+58-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:13:9-35
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.13.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/9f329d9004dcec40d8b9fd5f4f508bfd/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+60        android:debuggable="true"
+61        android:extractNativeLibs="false"
+62        android:icon="@mipmap/ic_launcher"
+62-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:14:9-43
+63        android:label="@string/app_name"
+63-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:15:9-41
+64        android:roundIcon="@mipmap/ic_launcher_round"
+64-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:16:9-54
+65        android:supportsRtl="true"
+65-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:17:9-35
+66        android:testOnly="true"
+67        android:theme="@style/Theme.LovelyGallery" >
+67-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:18:9-51
+68        <activity
+68-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:20:9-27:20
+69            android:name="com.example.lovelygallery.ui.auth.LoginActivity"
+69-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:21:13-50
+70            android:exported="true" >
+70-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:22:13-36
+71            <intent-filter>
+71-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:23:13-26:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:24:17-69
+72-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:24:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:25:17-77
+74-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:25:27-74
+75            </intent-filter>
+76        </activity>
+77        <activity
+77-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:29:9-32:20
+78            android:name="com.example.lovelygallery.MainActivity"
+78-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:30:13-41
+79            android:exported="false" >
+79-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:31:13-37
+80        </activity>
+81        <activity
+81-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:34:9-37:58
+82            android:name="com.example.lovelygallery.ui.gallery.PhotoDetailActivity"
+82-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:35:13-59
+83            android:exported="false"
+83-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:36:13-37
+84            android:theme="@style/Theme.LovelyGallery" />
+84-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:37:13-55
+85        <activity
+85-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:39:9-43:40
+86            android:name="com.example.lovelygallery.ui.slideshow.SlideshowActivity"
+86-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:40:13-59
+87            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+87-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:42:13-87
+88            android:exported="false"
+88-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:43:13-37
+89            android:theme="@style/Theme.LovelyGallery.Fullscreen" />
+89-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:41:13-66
+90        <activity
+90-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:45:9-48:40
+91            android:name="com.example.lovelygallery.ui.map.OsmMapActivity"
+91-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:46:13-50
+92            android:exported="false"
+92-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:48:13-37
+93            android:label="Mapa zdjęć" />
+93-->/Users/kacpergawlik/AndroidStudioProjects/LovelyGallery/app/src/main/AndroidManifest.xml:47:13-39
+94
+95        <!--
+96        Service for holding metadata. Cannot be instantiated.
+97        Metadata will be merged from other manifests.
+98        -->
+99        <service
+99-->[androidx.camera:camera-core:1.3.1] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/9350144592283f2ffe0591327bede37d/transformed/camera-core-1.3.1/AndroidManifest.xml:29:9-33:78
+100            android:name="androidx.camera.core.impl.MetadataHolderService"
+100-->[androidx.camera:camera-core:1.3.1] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/9350144592283f2ffe0591327bede37d/transformed/camera-core-1.3.1/AndroidManifest.xml:30:13-75
+101            android:enabled="false"
+101-->[androidx.camera:camera-core:1.3.1] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/9350144592283f2ffe0591327bede37d/transformed/camera-core-1.3.1/AndroidManifest.xml:31:13-36
+102            android:exported="false" >
+102-->[androidx.camera:camera-core:1.3.1] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/9350144592283f2ffe0591327bede37d/transformed/camera-core-1.3.1/AndroidManifest.xml:32:13-37
+103            <meta-data
+103-->[androidx.camera:camera-camera2:1.3.1] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/a5c705fe49572aa31f3da4dd287b3e98/transformed/camera-camera2-1.3.1/AndroidManifest.xml:30:13-32:89
+104                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+104-->[androidx.camera:camera-camera2:1.3.1] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/a5c705fe49572aa31f3da4dd287b3e98/transformed/camera-camera2-1.3.1/AndroidManifest.xml:31:17-103
+105                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+105-->[androidx.camera:camera-camera2:1.3.1] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/a5c705fe49572aa31f3da4dd287b3e98/transformed/camera-camera2-1.3.1/AndroidManifest.xml:32:17-86
+106        </service> <!-- Needs to be explicitly declared on P+ -->
+107        <uses-library
+107-->[com.google.android.gms:play-services-maps:18.2.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/625552c8582f73927fd99d2f10059884/transformed/play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+108            android:name="org.apache.http.legacy"
+108-->[com.google.android.gms:play-services-maps:18.2.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/625552c8582f73927fd99d2f10059884/transformed/play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+109            android:required="false" />
+109-->[com.google.android.gms:play-services-maps:18.2.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/625552c8582f73927fd99d2f10059884/transformed/play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+110
+111        <service
+111-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/8bd12df3576af940e333c0c1fc2b0687/transformed/play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:9:9-15:19
+112            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+112-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/8bd12df3576af940e333c0c1fc2b0687/transformed/play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:10:13-91
+113            android:directBootAware="true"
+113-->[com.google.mlkit:common:18.1.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/8177e7468b90279af2a4340fea471b04/transformed/common-18.1.0/AndroidManifest.xml:17:13-43
+114            android:exported="false" >
+114-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/8bd12df3576af940e333c0c1fc2b0687/transformed/play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:11:13-37
+115            <meta-data
+115-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/8bd12df3576af940e333c0c1fc2b0687/transformed/play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:12:13-14:85
+116                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+116-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/8bd12df3576af940e333c0c1fc2b0687/transformed/play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:13:17-114
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/8bd12df3576af940e333c0c1fc2b0687/transformed/play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:14:17-82
+118            <meta-data
+118-->[com.google.mlkit:vision-common:17.1.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/878c6aaa7d4ade6838fd772b3381ce84/transformed/vision-common-17.1.0/AndroidManifest.xml:12:13-14:85
+119                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+119-->[com.google.mlkit:vision-common:17.1.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/878c6aaa7d4ade6838fd772b3381ce84/transformed/vision-common-17.1.0/AndroidManifest.xml:13:17-124
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.mlkit:vision-common:17.1.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/878c6aaa7d4ade6838fd772b3381ce84/transformed/vision-common-17.1.0/AndroidManifest.xml:14:17-82
+121            <meta-data
+121-->[com.google.mlkit:common:18.1.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/8177e7468b90279af2a4340fea471b04/transformed/common-18.1.0/AndroidManifest.xml:20:13-22:85
+122                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+122-->[com.google.mlkit:common:18.1.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/8177e7468b90279af2a4340fea471b04/transformed/common-18.1.0/AndroidManifest.xml:21:17-120
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.mlkit:common:18.1.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/8177e7468b90279af2a4340fea471b04/transformed/common-18.1.0/AndroidManifest.xml:22:17-82
+124        </service>
+125
+126        <provider
+126-->[com.google.mlkit:common:18.1.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/8177e7468b90279af2a4340fea471b04/transformed/common-18.1.0/AndroidManifest.xml:9:9-13:38
+127            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+127-->[com.google.mlkit:common:18.1.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/8177e7468b90279af2a4340fea471b04/transformed/common-18.1.0/AndroidManifest.xml:10:13-78
+128            android:authorities="com.example.lovelygallery.mlkitinitprovider"
+128-->[com.google.mlkit:common:18.1.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/8177e7468b90279af2a4340fea471b04/transformed/common-18.1.0/AndroidManifest.xml:11:13-69
+129            android:exported="false"
+129-->[com.google.mlkit:common:18.1.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/8177e7468b90279af2a4340fea471b04/transformed/common-18.1.0/AndroidManifest.xml:12:13-37
+130            android:initOrder="99" />
+130-->[com.google.mlkit:common:18.1.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/8177e7468b90279af2a4340fea471b04/transformed/common-18.1.0/AndroidManifest.xml:13:13-35
+131
+132        <activity
+132-->[com.google.android.gms:play-services-base:18.3.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/ed71ea60a327503757590fbe079ddbaa/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+133            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+133-->[com.google.android.gms:play-services-base:18.3.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/ed71ea60a327503757590fbe079ddbaa/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+134            android:exported="false"
+134-->[com.google.android.gms:play-services-base:18.3.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/ed71ea60a327503757590fbe079ddbaa/transformed/play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+135-->[com.google.android.gms:play-services-base:18.3.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/ed71ea60a327503757590fbe079ddbaa/transformed/play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+136
+137        <meta-data
+137-->[com.google.android.gms:play-services-basement:18.3.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/dfd26bcb08647aa88d945662dc0df621/transformed/play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+138            android:name="com.google.android.gms.version"
+138-->[com.google.android.gms:play-services-basement:18.3.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/dfd26bcb08647aa88d945662dc0df621/transformed/play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+139            android:value="@integer/google_play_services_version" />
+139-->[com.google.android.gms:play-services-basement:18.3.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/dfd26bcb08647aa88d945662dc0df621/transformed/play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+140
+141        <service
+141-->[androidx.room:room-runtime:2.6.1] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/ca710a66c436871bd88ab72d10b16dd5/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+142            android:name="androidx.room.MultiInstanceInvalidationService"
+142-->[androidx.room:room-runtime:2.6.1] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/ca710a66c436871bd88ab72d10b16dd5/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+143            android:directBootAware="true"
+143-->[androidx.room:room-runtime:2.6.1] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/ca710a66c436871bd88ab72d10b16dd5/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+144            android:exported="false" />
+144-->[androidx.room:room-runtime:2.6.1] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/ca710a66c436871bd88ab72d10b16dd5/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+145
+146        <provider
+146-->[androidx.emoji2:emoji2:1.3.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/548adf8c3d5ff788f1590c9cfeb18497/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+147            android:name="androidx.startup.InitializationProvider"
+147-->[androidx.emoji2:emoji2:1.3.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/548adf8c3d5ff788f1590c9cfeb18497/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+148            android:authorities="com.example.lovelygallery.androidx-startup"
+148-->[androidx.emoji2:emoji2:1.3.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/548adf8c3d5ff788f1590c9cfeb18497/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+149            android:exported="false" >
+149-->[androidx.emoji2:emoji2:1.3.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/548adf8c3d5ff788f1590c9cfeb18497/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+150            <meta-data
+150-->[androidx.emoji2:emoji2:1.3.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/548adf8c3d5ff788f1590c9cfeb18497/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+151                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+151-->[androidx.emoji2:emoji2:1.3.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/548adf8c3d5ff788f1590c9cfeb18497/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+152                android:value="androidx.startup" />
+152-->[androidx.emoji2:emoji2:1.3.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/548adf8c3d5ff788f1590c9cfeb18497/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+153            <meta-data
+153-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/c8f140628c6273559ea6d2103565ee76/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+154                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+154-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/c8f140628c6273559ea6d2103565ee76/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+155                android:value="androidx.startup" />
+155-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/c8f140628c6273559ea6d2103565ee76/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+156            <meta-data
+156-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+157                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+157-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+158                android:value="androidx.startup" />
+158-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+159        </provider>
+160
+161        <receiver
+161-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+162            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+162-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+163            android:directBootAware="false"
+163-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+164            android:enabled="true"
+164-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+165            android:exported="true"
+165-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+166            android:permission="android.permission.DUMP" >
+166-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+167            <intent-filter>
+167-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+168                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+168-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+168-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+169            </intent-filter>
+170            <intent-filter>
+170-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+171                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+171-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+171-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+172            </intent-filter>
+173            <intent-filter>
+173-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+174                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+174-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+174-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+175            </intent-filter>
+176            <intent-filter>
+176-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+177                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+177-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+177-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/b68a453da367cd2adf71f99331f43f0b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+178            </intent-filter>
+179        </receiver>
+180
+181        <service
+181-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/9f6c767c572e65b422dca63a731d2e82/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+182            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+182-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/9f6c767c572e65b422dca63a731d2e82/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+183            android:exported="false" >
+183-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/9f6c767c572e65b422dca63a731d2e82/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+184            <meta-data
+184-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/9f6c767c572e65b422dca63a731d2e82/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+185                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+185-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/9f6c767c572e65b422dca63a731d2e82/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+186                android:value="cct" />
+186-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/9f6c767c572e65b422dca63a731d2e82/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+187        </service>
+188        <service
+188-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/6bbadd33dc2e5b72046e925356ad5b96/transformed/transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+189            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+189-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/6bbadd33dc2e5b72046e925356ad5b96/transformed/transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+190            android:exported="false"
+190-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/6bbadd33dc2e5b72046e925356ad5b96/transformed/transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+191            android:permission="android.permission.BIND_JOB_SERVICE" >
+191-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/6bbadd33dc2e5b72046e925356ad5b96/transformed/transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+192        </service>
+193
+194        <receiver
+194-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/6bbadd33dc2e5b72046e925356ad5b96/transformed/transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+195            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+195-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/6bbadd33dc2e5b72046e925356ad5b96/transformed/transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+196            android:exported="false" />
+196-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/kacpergawlik/.gradle/caches/8.11.1/transforms/6bbadd33dc2e5b72046e925356ad5b96/transformed/transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+197    </application>
+198
+199</manifest>
