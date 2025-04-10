@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="color_picker_size">48dp</dimen>
+    <dimen name="color_picker_margin">4dp</dimen>
+    <dimen name="icon_picker_size">56dp</dimen>
+    <dimen name="icon_picker_margin">4dp</dimen>
+</resources>
