@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Design 3 Color Palette -->
+
+    <!-- Primary Colors -->
+    <color name="primary">#6750A4</color>
+    <color name="primary_light">#938F99</color>
+    <color name="primary_dark">#4F378B</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#625B71</color>
+    <color name="secondary_light">#CCC2DC</color>
+    <color name="secondary_dark">#4A4458</color>
+
+    <!-- Tertiary Colors -->
+    <color name="tertiary">#7D5260</color>
+    <color name="tertiary_light">#EFB8C8</color>
+    <color name="tertiary_dark">#543B4F</color>
+
+    <!-- Neutral Colors -->
+    <color name="background">#FFFBFE</color>
+    <color name="surface">#FFFBFE</color>
+    <color name="surface_variant">#E6E1E5</color>
+    <color name="outline">#79747E</color>
+
+    <!-- Text Colors -->
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_background">#1C1B1F</color>
+    <color name="on_surface">#1C1B1F</color>
+
+    <!-- Error Colors -->
+    <color name="error">#B3261E</color>
+    <color name="error_container">#F9DEDC</color>
+
+    <!-- Additional Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
