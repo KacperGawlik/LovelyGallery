@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="300">
+    <!-- Animacja przesuwania -->
+    <slide
+        android:slideEdge="start"
+        android:interpolator="@android:interpolator/fast_out_slow_in" />
+
+    <!-- Animacja zmiany rozmiaru -->
+    <changeTransform
+        android:interpolator="@android:interpolator/fast_out_slow_in" />
+
+    <!-- Animacja zmiany alpha -->
+    <fade
+        android:fadingMode="fade_in_out" />
+</transitionSet>

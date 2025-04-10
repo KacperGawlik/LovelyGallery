@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FFFBFE</color>
+    <color name="black">#000000</color>
+    <color name="error">#B3261E</color>
+    <color name="error_container">#F9DEDC</color>
+    <color name="on_background">#1C1B1F</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_surface">#1C1B1F</color>
+    <color name="outline">#79747E</color>
+    <color name="primary">#6750A4</color>
+    <color name="primary_dark">#4F378B</color>
+    <color name="primary_light">#938F99</color>
+    <color name="secondary">#625B71</color>
+    <color name="secondary_dark">#4A4458</color>
+    <color name="secondary_light">#CCC2DC</color>
+    <color name="surface">#FFFBFE</color>
+    <color name="surface_variant">#E6E1E5</color>
+    <color name="tertiary">#7D5260</color>
+    <color name="tertiary_dark">#543B4F</color>
+    <color name="tertiary_light">#EFB8C8</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="color_picker_margin">4dp</dimen>
+    <dimen name="color_picker_size">48dp</dimen>
+    <dimen name="icon_picker_margin">4dp</dimen>
+    <dimen name="icon_picker_size">56dp</dimen>
+    <string name="add_category">Dodaj kategorię</string>
+    <string name="add_category_dialog_title">Dodaj nową kategorię</string>
+    <string name="add_photo">Dodaj zdjęcie</string>
+    <string name="add_to_category">Dodaj do kategorii</string>
+    <string name="all_photos">Wszystkie zdjęcia</string>
+    <string name="app_logo">Logo aplikacji</string>
+    <string name="app_name">LovelyGallery</string>
+    <string name="app_subtitle">Bezpieczne miejsce na wspólne wspomnienia</string>
+    <string name="authentication_error">Błąd uwierzytelniania</string>
+    <string name="authentication_failed">Uwierzytelnianie nie powiodło się</string>
+    <string name="authentication_succeeded">Uwierzytelnianie udane</string>
+    <string name="backup">Kopia zapasowa</string>
+    <string name="camera">Aparat</string>
+    <string name="camera_permission_required">Aplikacja potrzebuje dostępu do aparatu, aby zrobić zdjęcie.</string>
+    <string name="cancel">Anuluj</string>
+    <string name="categories">Kategorie</string>
+    <string name="categories_updated">Kategorie zaktualizowane</string>
+    <string name="category_added">Kategoria dodana</string>
+    <string name="category_description">Opis kategorii</string>
+    <string name="category_icon">Ikona kategorii</string>
+    <string name="category_name">Nazwa kategorii</string>
+    <string name="category_name_empty">Nazwa kategorii nie może być pusta</string>
+    <string name="category_updated">Kategoria zaktualizowana</string>
+    <string name="color">Kolor</string>
+    <string name="create_category">Utwórz kategorię</string>
+    <string name="decrypt">Deszyfruj</string>
+    <string name="decryption_error">Błąd deszyfrowania</string>
+    <string name="delete">Usuń</string>
+    <string name="edit_category">Edytuj kategorię</string>
+    <string name="edit_category_dialog_title">Edytuj kategorię</string>
+    <string name="encrypt">Szyfruj</string>
+    <string name="encryption_error">Błąd szyfrowania</string>
+    <string name="error_saving_photo">Błąd podczas zapisywania zdjęcia</string>
+    <string name="export">Eksportuj</string>
+    <string name="favorites">Ulubione</string>
+    <string name="gallery">Galeria</string>
+    <string name="icon">Ikona</string>
+    <string name="map">Mapa</string>
+    <string name="mark_as_favorite">Oznacz jako ulubione</string>
+    <string name="no_biometric_features">To urządzenie nie ma czytnika biometrycznego</string>
+    <string name="no_categories">Brak kategorii</string>
+    <string name="no_photos">Brak zdjęć</string>
+    <string name="ok">OK</string>
+    <string name="permission_required">Wymagane uprawnienia</string>
+    <string name="photo_preview">Podgląd zdjęcia</string>
+    <string name="photo_saved">Zdjęcie zapisane!</string>
+    <string name="photos">Zdjęcia</string>
+    <string name="photos_count">%d zdjęć</string>
+    <string name="save">Zapisz</string>
+    <string name="search">Szukaj</string>
+    <string name="settings">Ustawienia</string>
+    <string name="share">Udostępnij</string>
+    <string name="slideshow">Pokaz slajdów</string>
+    <string name="switch_camera">Przełącz aparat</string>
+    <string name="take_photo">Zrób zdjęcie</string>
+    <string name="use_fingerprint">Użyj odcisku palca</string>
+    <string name="videos">Filmy</string>
+    <string name="welcome_message">Wasza Prywatna Galeria</string>
+    <style name="Base.Theme.LovelyGallery" parent="Theme.Material3.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+
+        
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+
+        
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+
+        
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+
+        
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/white</item>
+
+        
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.MaterialComponents.Headline1</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.MaterialComponents.Headline2</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.MaterialComponents.Headline3</item>
+
+        
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.LargeComponent</item>
+    </style>
+    <style name="CustomChipStyle" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipCornerRadius">12dp</item>
+    </style>
+    <style name="CustomFAB" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="tint">@color/on_primary</item>
+    </style>
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+    <style name="CustomToolbarStyle" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextColor">@color/on_surface</item>
+        <item name="subtitleTextColor">@color/secondary</item>
+    </style>
+    <style name="OutlinedRoundedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+    <style name="RoundedButton" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="ShapeAppearance.LargeComponent" parent="">
+        <item name="cornerSize">16dp</item>
+    </style>
+    <style name="ShapeAppearance.MediumComponent" parent="">
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="ShapeAppearance.SmallComponent" parent="">
+        <item name="cornerSize">8dp</item>
+    </style>
+    <style name="TextRoundedButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+    <style name="Theme.LovelyGallery" parent="Base.Theme.LovelyGallery"/>
+    <style name="Theme.LovelyGallery.Fullscreen" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="Widget.MaterialComponents.Chip.Outline" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipStrokeColor">@color/primary</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipBackgroundColor">@android:color/transparent</item>
+    </style>
+</resources>
